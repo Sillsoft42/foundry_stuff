@@ -38,5 +38,8 @@
       "system": "dnd5e",
       "flags": {}
     }
-  ]
+  ],
+  "manifest": "https://raw.githubusercontent.com/Sillsoft42/foundry_stuff/main/module.json",
+  "download": "https://github.com/Sillsoft42/foundry_stuff/archive/main.zip",
 }
+
