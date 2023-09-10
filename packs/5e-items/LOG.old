@@ -1,3 +1,5 @@
-2023/09/06-20:40:23.503 e48 Recovering log #27
-2023/09/06-20:40:23.509 e48 Delete type=0 #27
-2023/09/06-20:40:23.509 e48 Delete type=3 #26
+2023/09/09-19:53:56.116 32ac Recovering log #35
+2023/09/09-19:53:56.116 32ac Level-0 table #37: started
+2023/09/09-19:53:56.119 32ac Level-0 table #37: 5514 bytes OK
+2023/09/09-19:53:56.126 32ac Delete type=0 #35
+2023/09/09-19:53:56.126 32ac Delete type=3 #34
