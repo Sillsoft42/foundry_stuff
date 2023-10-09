@@ -33,10 +33,10 @@ Hooks.on("dnd5e.preItemUsageConsumption", async (item, consume, options, update)
 	let text = "As "+actor.name+" fires off the spell, ";
 	if (fd.total <= spellLvl) {
 		style = "<i style='color:red;'>";
-		text += "the pistol jams and can no longer be used";
+		text += "the pistol jams and can no longer be used ("+fd.total+")";
 	} else {
 		style = "<i style='color:green;'>";
-		text += "the pistol sparks but continues to function";
+		text += "the pistol sparks but continues to function ("+fd.total+")";
 	}
 	let chatData = {
 		speaker: ChatMessage.getSpeaker(),
