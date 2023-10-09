@@ -23,7 +23,7 @@ Hooks.on("dnd5e.preItemUsageConsumption", async (item, consume, options, update)
 	if (adata.classes['a5e-artificer'] === undefined)
 		return [item, consume, options];
 
-	let fd = new Roll("1@scale.a5e-artificer.fizzle-dice", adata);
+	let fd = new Roll("@scale.a5e-artificer.fizzle-dice", adata);
 
 	consume.consumeSpellLevel = false;
 	consume.consumeSpellSlot = false;
