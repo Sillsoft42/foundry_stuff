@@ -1,7 +1,7 @@
 {
   "id": "sillsofts-stuff",
   "title": "Sillsoft's Stuff",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -40,7 +40,7 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/Sillsoft42/foundry_stuff/main/module.json",
-  "esmodules": "scripts/fizzledice.js",
+  "esmodules": ["scripts/rage.js", "scripts/fizzledice.js"],
   "download": "https://github.com/Sillsoft42/foundry_stuff/archive/main.zip"
 }
 
