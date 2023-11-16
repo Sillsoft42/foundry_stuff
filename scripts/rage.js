@@ -3,17 +3,24 @@ Hooks.once("init", () => {
 });
 
 function rage_hp_check (combat, update) {
-	let actor = combat.nextCombatant.actor;
-	let adata = actor.getRollData();
+	let rager = combat.nextCombatant.actor;
+	console.log(rager);
+	let adata = rager.getRollData();
 	if (adata.classes.a5eberserker === undefined) {
 		return;
 	}
-	actor.appliedEffects.forEach((effect) => {
+	rager.appliedEffects.forEach((effect) => {
 		if (effect.name === 'Rage') {
 			let maxrhp = adata.classes.a5eberserker.levels*5;
-			let addrhp = Math.max(0,actor.system.scale.a5eberserker['rage-hit-points'].value);
+			let addrhp = Math.max(0,rager.system.scale.a5eberserker['rage-hit-points'].value);
 			let thp = Math.max(0,adata.attributes.hp.temp);
-			actor.update({"data.attributes.hp.temp" : Math.min(maxrhp,addrhp+thp)});
+			let text = "<i style='color:green;'>"+rager.name+" suddenly feels healther</i>";
+			let stats = "Current temp hp="+thp+"Max rage temp hp="+maxrhp+"Increase by="+addrhp;
+			let chatData = {
+				content: text+"<br>"+stats
+			};
+			ChatMessage.create(chatData);
+			rager.update({"data.attributes.hp.temp" : Math.min(maxrhp,addrhp+thp)});
 		}
 	});
 }
