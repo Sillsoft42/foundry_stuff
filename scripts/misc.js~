@@ -5,3 +5,9 @@ Hooks.once("init", () => {
 	};
 });
 
+Hooks.on("dnd5e.rollInitiative", async (actor combatants) => {
+	console.log('init rolled');
+	console.log(actor);
+	console.log(combatants);
+});
+

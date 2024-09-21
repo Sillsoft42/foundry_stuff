@@ -1,10 +1,10 @@
 {
   "id": "sillsofts-stuff",
   "title": "Sillsoft's Stuff",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "description": "Software so ill, It's Sill\nQuality Software since the beginning of time\nJan 1, 1970",
   "authors": [
@@ -15,34 +15,10 @@
   ],
   "packs": [
     {
-      "name": "a5e-items",
-      "label": "A5E Items",
-      "path": "packs/a5e-items",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
       "name": "5e-items",
       "label": "5E Items",
       "path": "packs/5e-items",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
-    },
-    {
-      "name": "a5e-actors",
-      "label": "A5E Actors",
-      "path": "packs/a5e-actors",
-      "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
