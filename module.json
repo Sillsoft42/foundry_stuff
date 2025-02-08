@@ -1,7 +1,7 @@
 {
   "id": "sillsofts-stuff",
   "title": "Sillsoft's Stuff",
-  "version": "1.0.18",
+  "version": "2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -28,7 +28,7 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/Sillsoft42/foundry_stuff/main/module.json",
-  "esmodules": ["scripts/insp.js"],
+  "esmodules": ["scripts/main.js"],
   "download": "https://github.com/Sillsoft42/foundry_stuff/archive/main.zip"
 }
 
