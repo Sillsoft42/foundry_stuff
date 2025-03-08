@@ -65,7 +65,7 @@ export function buildHooks () {
 		check_for_inspiration(rolls[0], data.subject.actor);
 	});
 	Hooks.on("dnd5e.rollSavingThrow", async (rolls, data) => {
-		check_for_inspiration(rolls[0], data.subject.actor);
+		check_for_inspiration(rolls[0], data.subject);
 	});
 };
 

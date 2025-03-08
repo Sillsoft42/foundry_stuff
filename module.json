@@ -1,7 +1,7 @@
 {
   "id": "sillsofts-stuff",
   "title": "Sillsoft's Stuff",
-  "version": "2.0",
+  "version": "2.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -25,10 +25,39 @@
       },
       "system": "dnd5e",
       "flags": {}
-    }
+    },
+	{
+		"name": "5e-macros",
+		"label": "5E Macros",
+		"path": "packs/5e-macros",
+		"type": "Macro",
+		"ownership": {
+			"PLAYER": "OBSERVER",
+			"ASSISTANT": "OWNER"
+		},
+		"system": "dnd5e",
+		"flags": {}
+	}
   ],
+	"packFolders": [
+		{
+			"name": "Sillsoft's Stuff",
+			"color": "#0000ff",
+			"packs": [
+				"5e-items",
+				"5e-macros"
+			]
+		}
+	],
   "manifest": "https://raw.githubusercontent.com/Sillsoft42/foundry_stuff/main/module.json",
   "esmodules": ["scripts/main.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "download": "https://github.com/Sillsoft42/foundry_stuff/archive/main.zip"
 }
 
