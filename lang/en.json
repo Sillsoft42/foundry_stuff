@@ -1,0 +1,7 @@
+{
+  "DND5E": {
+    "SpellLevelWarden": "Warden Slot [Level {level}] ({n} Slots)",
+    "SpellProgWarden": "Warden",
+    "SpellSlotsWarden": "Warden Slots"
+  }
+}
